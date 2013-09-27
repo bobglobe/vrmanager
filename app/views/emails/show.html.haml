@@ -1,0 +1,21 @@
+%p#notice= notice
+
+%p
+  %b Subject:
+  = @email.subject
+%p
+  %b Email:
+  = @email.email
+%p
+  %b From:
+  = @email.from
+%p
+  %b Body:
+  = @email.body
+%p
+  %b Status:
+  = @email.status
+
+= link_to 'Edit', edit_email_path(@email)
+\|
+= link_to 'Back', emails_path

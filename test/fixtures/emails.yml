@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  subject: MyString
+  from: MyString
+  email: MyString
+  body: MyText
+  status: MyString
+  inquiry_id: 1
+  date_sent: 2013-09-26 19:19:34
+
+two:
+  subject: MyString
+  from: MyString
+  email: MyString
+  body: MyText
+  status: MyString
+  inquiry_id: 1
+  date_sent: 2013-09-26 19:19:34

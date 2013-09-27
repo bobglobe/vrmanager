@@ -12,6 +12,13 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap
+//= require twitter/bootstrap
 //= require turbolinks
+//= require snap
 //= require_tree .
+
+$(function() {
+  var snapper = new Snap({
+    element: document.getElementById('content')
+  });
+})
