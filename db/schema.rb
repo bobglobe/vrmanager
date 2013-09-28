@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20130927021934) do
   create_table "emails", force: true do |t|
     t.string   "subject"
     t.string   "from"
+    t.string   "to"
     t.string   "email"
     t.text     "body"
     t.string   "status"
